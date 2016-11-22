@@ -1,0 +1,31 @@
+body {
+	color: #787878;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+section.background-style {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url("image1.jpeg");
+	height: 75%;
+}
+
+.flex-holder {
+	height: 100%;
+	width: 100%;
+	display: flex;
+
+}
+
+.flex {
+	text-align: center;
+	margin:auto;
+	font-size: 2em;
+}
